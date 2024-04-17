@@ -1,0 +1,64 @@
+body {
+  height: 100vh;
+  background-color: #111111;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.otp-box-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.otp-box-container h1 {
+  text-align: center;
+}
+
+.otp-box-list {
+  display: flex;
+  justify-content: center;
+}
+
+.otp-box-list .otp-box {
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  margin-right: 5px;
+  text-align: center;
+  box-shadow: 1px 1px 1px 1px teal;
+  border: none;
+  border-radius: 5px;
+}
+
+.generate-otp {
+  font-size: 32px;
+  text-align: center;
+}
+
+.otp-valid-check {
+  text-align: center;
+}
+
+#otp-expire-id {
+  text-align: center;
+  color: orange;
+  border: 2px solid orange;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.success {
+  color: green;
+  border: 2px solid green;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.invalid {
+  color: red;
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 10px;
+}
